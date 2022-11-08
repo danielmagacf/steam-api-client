@@ -1,16 +1,14 @@
 # Steam API Wrapper
 
-[![PHPUnit](https://github.com/SquegTech/steam-api-php/actions/workflows/phpunit.yml/badge.svg)](https://github.com/SquegTech/steam-api-php/actions/workflows/phpunit.yml)
+[![PHPUnit](https://github.com/danielmagacf/steam-api-client/actions/workflows/phpunit.yml/badge.svg)](https://github.com/danielmagacf/steam-api-client/actions/workflows/phpunit.yml)
 
 A PHP wrapper for the Steam API. Updated and maintained for the latest versions of PHP and Guzzle.
 
-This package replaces https://github.com/DaMitchell/steam-api-php which has been abandoned.
 
-All existing commands are based on this documentation: [https://steamapi.xpaw.me/](https://steamapi.xpaw.me/).
 
 Installation
 ------------
-Install the latest version using [Composer](http://getcomposer.org) by running `composer require squegtech/steam-api`
+Install the latest version using [Composer](http://getcomposer.org) by running `composer require magadanuhak/steam-api`
 
 Usage
 -----
