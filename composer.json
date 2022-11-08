@@ -1,14 +1,19 @@
 {
-    "name": "squegtech/steam-api",
+    "name": "magadanuhak/steam-api",
     "type": "library",
     "description": "PHP wrapper for the Steam web API",
-    "keywords": ["steam", "dota", "api", "csgo", "counter strike"],
-    "homepage": "https://github.com/SquegTech/steam-api-php",
+    "keywords": ["steam", "rust", "api","steam-api"],
+    "homepage": "https://github.com/danielmagacf/steam-api-client",
     "license": "BSD-2-Clause",
     "authors": [
         {
             "name": "Tommy Bolger",
             "email": "tommy.bolger@gmail.com",
+            "role": "Developer"
+        },
+        {
+             "name": "Daniel Maga",
+            "email": "magadanuhak@gmail.com",
             "role": "Developer"
         }
     ],
@@ -22,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "SquegTech\\Steam\\": "src/Steam"
+            "Maga\\Steam\\": "src/Steam"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SquegTech\\Steam\\Tests\\": "tests/src/Steam"
+            "Maga\\Steam\\Tests\\": "tests/src/Steam"
         }
     }
 }
